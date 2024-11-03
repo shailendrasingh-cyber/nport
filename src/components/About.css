@@ -1,0 +1,107 @@
+/* src/components/About.css */
+
+.about {
+    background-color: #f9f9f9; /* Light gray background for contrast */
+    padding: 40px 20px; /* Padding for the section */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: center; /* Center text alignment */
+    max-width: 800px; /* Max width for the section */
+    margin: 20px auto; /* Center the section with margin */
+  }
+  
+  .about-title {
+    font-size: 2.5rem; /* Title size */
+    color: #007BFF; /* Bright blue for title */
+    margin-bottom: 20px; /* Space below title */
+  }
+  
+  .profile-image {
+    width: 150px; /* Fixed width */
+    height: 150px; /* Fixed height */
+    border-radius: 50%; /* Circular profile image */
+    border: 4px solid #007BFF; /* Border around image */
+    margin-bottom: 20px; /* Space below image */
+    transition: transform 0.3s; /* Animation for hover effect */
+  }
+  
+  .profile-image:hover {
+    transform: scale(1.1); /* Scale image on hover */
+  }
+  
+  .about-description {
+    font-size: 1rem; /* Font size for paragraph */
+    color: #555; /* Darker gray for text */
+    margin-bottom: 20px; /* Space below paragraph */
+  }
+  
+  h3 {
+    color: #333; /* Dark gray for subheadings */
+    margin-top: 20px; /* Space above subheading */
+    font-size: 1.5rem; /* Subheading size */
+  }
+  
+  .qualifications-list,
+  .hobbies-list {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* No padding */
+    margin: 20px 0; /* Space around lists */
+  }
+  
+  .qualifications-list li,
+  .hobbies-list li {
+    background-color: #e2f0ff; /* Light blue background */
+    padding: 10px; /* Padding around list items */
+    border-radius: 5px; /* Rounded corners for list items */
+    margin: 5px 0; /* Space between items */
+    transition: background-color 0.3s; /* Smooth background color transition */
+  }
+  
+  .qualifications-list li:hover,
+  .hobbies-list li:hover {
+    background-color: #007BFF; /* Dark blue background on hover */
+    color: white; /* White text color on hover */
+  }
+  
+  .social-media {
+    margin-top: 20px; /* Space above social media links */
+  }
+  
+  .social-icon {
+    display: inline-block; /* Allows for margin and padding */
+    margin: 0 10px; /* Horizontal spacing between icons */
+    color: #007BFF; /* Icon color */
+    font-size: 1.5rem; /* Icon size */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s, transform 0.3s; /* Smooth transition for color and scale */
+  }
+  
+  .social-icon:hover {
+    color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .profile-image {
+      width: 120px; /* Smaller image for mobile */
+      height: 120px; /* Smaller image for mobile */
+    }
+  
+    .about {
+      padding: 30px 15px; /* Adjust padding for mobile */
+    }
+  
+    .about-title {
+      font-size: 2rem; /* Smaller title on mobile */
+    }
+  
+    .about-description {
+      font-size: 0.9rem; /* Smaller font for mobile */
+    }
+  
+    .social-icon {
+      font-size: 1.2rem; /* Smaller icons on mobile */
+    }
+  }
+  

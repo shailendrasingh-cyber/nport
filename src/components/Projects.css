@@ -1,0 +1,43 @@
+.projects {
+    background-color: #f9f9f9; /* Light background color for contrast */
+    padding: 50px 20px; /* Padding for the section */
+    text-align: center; /* Center the text */
+  }
+  
+  .projects h2 {
+    font-size: 2.5em; /* Size of the section heading */
+    color: #333; /* Dark color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  .project-list {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping of items */
+    justify-content: center; /* Center items horizontally */
+  }
+  
+  .project {
+    background-color: #ffffff; /* White background for each project card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 15px; /* Space between project cards */
+    padding: 20px; /* Internal padding */
+    width: 300px; /* Fixed width for cards */
+    transition: transform 0.3s; /* Smooth hover effect */
+  }
+  
+  .project:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+  }
+  
+  .project h3 {
+    font-size: 1.5em; /* Size of the project name */
+    color: #007bff; /* Bootstrap primary color for project name */
+    margin: 10px 0; /* Space above and below the name */
+  }
+  
+  .project p {
+    font-size: 1em; /* Size of the project description */
+    color: #555; /* Dark gray color for description */
+  }
+  

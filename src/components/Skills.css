@@ -1,0 +1,33 @@
+/* src/components/Skills.css */
+
+.skills {
+  background-color: #f9f9f9; /* Light background for the skills section */
+  padding: 50px; /* Padding for spacing */
+  text-align: center; /* Center align the text */
+}
+
+.skills-title {
+  font-size: 2rem; /* Title font size */
+  margin-bottom: 20px; /* Space below the title */
+  color: #333; /* Title color */
+}
+
+.skills-list {
+  display: flex; /* Flexbox for horizontal layout */
+  justify-content: center; /* Center the items */
+  flex-wrap: wrap; /* Wrap to the next line if needed */
+}
+
+.skill-item {
+  background-color: #4CAF50; /* Green background for skill items */
+  color: white; /* White text color */
+  padding: 15px 20px; /* Padding for spacing */
+  margin: 10px; /* Margin between items */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.skill-item:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
